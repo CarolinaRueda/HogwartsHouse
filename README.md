@@ -4,8 +4,8 @@ This is a small information project about the houses in the fictional world of *
 
 Preview:
 
-![alt text for screen readers](../previewhome.png "Home")
-![alt text for screen readers](../previewhouses.jpg "Houses")
+![Home Preview](./src/pictures/previews/previewhome.png "Home")
+![Houses Preview](./src/pictures/previews/previewhouses.jpg "Home")
 
 ---
 
