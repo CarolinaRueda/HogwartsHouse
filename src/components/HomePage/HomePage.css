@@ -1,0 +1,73 @@
+.container,
+.title-home,
+.select-house {
+  font-family: "Dancing Script", cursive;
+}
+
+.title-home {
+  font-size: 3rem;
+  color: #e2c2ff;
+  text-shadow: 3px 3px #000;
+  margin-bottom: 0.5rem;
+}
+
+.wel-shield img {
+  width: 16rem;
+  filter: opacity(0.8);
+}
+
+.select-house {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #e2c2ff;
+  text-shadow: 3px 3px #000;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.container > .buttons > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: "Macondo", cursive;
+  text-transform: capitalize;
+}
+
+.container > .buttons > div:hover {
+  cursor: pointer;
+}
+
+.shield img {
+  width: 1.8rem;
+}
+
+.gryffindor {
+  background-color: #740001;
+  color: #eeba30;
+  text-shadow: 1.5px 1.5px #000000;
+}
+
+.ravenclaw {
+  background-color: #222f5b;
+  color: #5d5d5d;
+  text-shadow: 1.5px 1.5px #000000;
+}
+
+.hufflepuff {
+  background-color: #ecb939;
+  color: #372e29;
+  text-shadow: 1.5px 1.2px #5d5d5d;
+}
+
+.slytherin {
+  background-color: #1a472a;
+  color: #aaaaaa;
+  text-shadow: 1.5px 1.2px #5d5d5d;
+}

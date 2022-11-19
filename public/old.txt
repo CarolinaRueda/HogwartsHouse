@@ -1,0 +1,40 @@
+import React, { useState } from "react";
+import "./Initial.css";
+import { houses } from "../../utilities/houses";
+import House from "../House/House";
+
+const houseNames = Object.keys(houses);
+
+const Initial = () => {
+  const [house, setHouse] = useState("");
+
+  const selectHouse = (e) => {
+    setHouse(e.target.value);
+  };
+
+  return (
+    <div>
+      <div className='container'>
+        <h1 className='title'>Welcome to Hogwarts</h1>
+        <h2 className='select-house'>
+          <i className='fa-solid fa-hat-wizard'></i> Select your House
+        </h2>
+        <div className='buttons'>
+          {houseNames.map((house) => (
+            <button
+              key={house}
+              className={house}
+              value={house}
+              onClick={selectHouse}
+            >
+              {house}
+            </button>
+          ))}
+        </div>
+        {house && <House info={houses[house]} />}
+      </div>
+    </div>
+  );
+};
+
+export default Initial;

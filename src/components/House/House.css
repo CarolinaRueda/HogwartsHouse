@@ -1,0 +1,81 @@
+.container-house {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nameInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nameInfo img {
+  height: 10rem;
+  padding: 0.5rem 1rem;
+}
+
+.information {
+  display: flex;
+  justify-content: left;
+}
+
+.info-cont {
+  text-align: left;
+}
+
+h3 {
+  font-family: "Macondo", cursive;
+  font-size: 1.5rem;
+}
+
+.house {
+  font-family: "Macondo", cursive;
+  font-size: 3rem;
+}
+
+.info-house {
+  display: flex;
+}
+
+#traits {
+  padding: 1rem 0;
+}
+
+#traits p {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.info-house p {
+  padding: 1rem 0.2rem;
+  font-family: "Macondo", cursive;
+  font-size: 1.3rem;
+}
+
+.title-house {
+  font-weight: bold;
+}
+
+.imabutton {
+  font-size: 1rem;
+  font-family: "Macondo", cursive;
+  font-weight: bold;
+  background-color: #ebf5fe;
+  background-image: linear-gradient(
+    rgba(175, 190, 143, 0.8),
+    rgba(125, 133, 112, 0.9)
+  );
+}
+
+.btn {
+  cursor: pointer;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.random-character p {
+  text-transform: capitalize;
+}
