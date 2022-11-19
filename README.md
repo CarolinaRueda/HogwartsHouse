@@ -1,3 +1,14 @@
+# Welcome to my own project: Hogwarts House
+
+This is a small information project about the houses in the fictional world of **Harry Potter**.
+
+Preview:
+
+![alt text for screen readers](../previewhome.png "Home")
+![alt text for screen readers](../previewhouses.jpg "Houses")
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
