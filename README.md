@@ -5,6 +5,7 @@ This is a small information project about the houses in the fictional world of *
 Preview:
 
 ![Home Preview](./src/pictures/previews/previewhome.png "Home")
+
 ![Houses Preview](./src/pictures/previews/previewhouses.jpg "Home")
 
 ---
